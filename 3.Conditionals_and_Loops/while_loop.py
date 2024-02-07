@@ -77,10 +77,53 @@
 # print(f"factorial of {num} is {factorial}")
 
 #?9
+# i = 1
+# while i <= 100:
+#     print(i)
+#     i+=1
+
+#?10
+# i = 100
+# while i >=1:
+#     print(i)
+#     i-=1 
+
+#?11
+# heroes = ["ironman","thor","spiderman","hulk","captain america","hawkaye"]
+
+# indx = 0
+# while indx < len(heroes):
+#     print(heroes[indx])
+#     indx +=1
+
+#?12 searching number x in tuple
+# nums = (2,4,6,8,24,36,56,68,45,90)
+
+# i = 0 #index/initialize
+# x = int(input("enter your number:"))
+# while i < len(nums):
+#     if nums[i] == x:
+#         print("found x in" ,i )
+#     # else:
+#     #     print("not found")
+#     i +=1
+
+#?13 odd or even
 i = 1
-while i <= 100:
+while i< 50:
+    if i%2 != 0:
+        i+=1
+        continue
     print(i)
     i+=1
+
+    
+    
+
+
+
+
+
 
 
 
