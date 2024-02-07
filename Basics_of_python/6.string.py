@@ -1,0 +1,12 @@
+name = "sibani"
+print(name)
+print(len(name))
+print(name.find("s"))
+print(name.capitalize())
+print(name.upper())
+print(name.lower())
+print(name.isdigit())
+print(name.count("i"))
+print(name.isalpha())
+# print(name.replace("s","k"))
+print(name*3)
