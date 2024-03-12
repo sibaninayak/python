@@ -70,11 +70,75 @@
 #     print("error")
     
 #?8
-held = int(input("number of class held:"))
-attended = int(input("number of class attended"))
-attendence = attended/held * 100
+# held = int(input("number of class held:"))
+# attended = int(input("number of class attended"))
+# attendence = attended/held * 100
 
-if attendence > 75:
-    print("he/she can enter the xm")
-else:
-    print("not")
+# if attendence > 75:
+#     print("he/she can enter the xm")
+# else:
+#     print("not")
+
+#?9 loop
+# for i in range(1,100):
+#     print(i)
+
+# for i in range(100,1 , -1):
+#     print(i)
+
+#?10 multiply
+# x = int(input("enter any number:"))
+
+# for i in range(1,11):
+#     # print(i*x)
+#     print(f'{i} X {x} = {i * x}')
+
+#?11 sum using while
+# x = int(input("enter any number:"))
+
+# sum = 0
+# i = 1
+# while i <= x:
+#     sum += i
+#     i += 1
+
+# print(sum)
+
+#?12 factorial 
+# x = int(input("enter any number:"))
+
+# factorial = 1
+# i = 1
+# # while i <= x:
+# #     factorial *= i
+# #     i += 1
+
+# for i in range(1,x+1):
+#     factorial*= i
+
+# print(factorial)
+
+#?13 printing odd nd even numbers
+
+# num = 1
+# while num <= 20:
+#     print(num)
+#     num = num +2
+
+#?14 natural nd whole numbers
+    
+# i = 0
+# while i<= 10:
+#     print(i)
+#     i +=1
+
+#?15 squares using while loop
+i = 1
+print("numbers\t\tsquares")
+while i<=10:
+    print(i,"\t\t",i**2)
+    i+=1
+
+
+
+

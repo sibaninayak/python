@@ -86,17 +86,3 @@ numbers = {
 # null_dict["name"] = "sibani nayak"
 # print(null_dict)
 
-#?practice qustnss
-python_dict = {
-    "cat" : "a small animal",
-    "table" : ("a piece of furniture" , "list of packs & figures")
-
- }
-
-# print(python_dict)
-
-#?2
-sets = {
-    "python","java","c++","python","javascript","java","python","c"
-    }
-print(sets)

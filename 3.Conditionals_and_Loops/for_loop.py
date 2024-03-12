@@ -53,7 +53,19 @@
      
 #?8
 
-l1 = ["sibani","sasmita","lucky","balram"]
-for i in l1:
-    if i.startswith("s"):
-        print("hello "+ i)
+# l1 = ["sibani","sasmita","lucky","balram"]
+# for i in l1:
+#     if i.startswith("s"):
+#         print("hello "+ i)
+
+#?9 findimg x
+# nums = [2,34,56,78,90,3,4,5,6,7]
+
+# x = int(input("enter your number:"))
+
+# for i in nums:
+#     if i==x:
+#         print("found")
+#         break
+# else:
+#     print("not found")

@@ -25,14 +25,14 @@
 
 # print("hello "+name)
 
-#?4
+#?4 break
 # while True:
 #     name = input("enter your name:")
 #     if name != "":
 #         break
 
 
-#?5
+#?5 continue
 # number = "123-456-789"
 
 # for i in number:
@@ -40,6 +40,7 @@
 #         continue
 #     print(i , end="")
 
+#? pass
 # for i in range(1 , 25):
 #     if i == 17:
 #         pass
